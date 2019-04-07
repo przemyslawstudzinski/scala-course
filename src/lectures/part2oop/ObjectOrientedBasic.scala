@@ -1,4 +1,4 @@
-package lectures.part2OOP
+package lectures.part2oop
 
 object ObjectOrientedBasic extends App {
 

@@ -1,4 +1,4 @@
-package lectures.part2OOP
+package lectures.part2oop
 
 import scala.text.DocGroup
 
