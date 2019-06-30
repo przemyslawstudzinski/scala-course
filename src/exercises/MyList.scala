@@ -31,7 +31,7 @@ object EmptyList extends MyList[Nothing] {
   override def printElements(): String = ""
 }
 
-class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
+case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
   override def head(): A = h
 
   override def tail(): MyList[A] = t
